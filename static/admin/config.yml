@@ -1,5 +1,6 @@
 backend:
   name: github
+  repo: PalconAdmin/gatsby-starter-decap-cms
   branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
@@ -12,6 +13,7 @@ local_backend: true
 media_folder: static/img
 public_folder: /img
 publish_mode: editorial_workflow
+preview_context: "Deploy preview"
 
 collections:
   - name: "blog"
